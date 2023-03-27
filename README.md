@@ -1,4 +1,4 @@
 # ProyectoNro1CV-ARGprograma
-repositorio del proyecto nro 1 de Argentina programa alumno Leonardo Romero
-hola profesores agradezco muchisimo su tiempo y su ayuda para con los que hoy queremos aprender programacion , realmente me anime a enviar el proyecto aunque considero que hay muchas cosas que puedo mejorar , hasta ahora nunca tuve ninguna devolucion pero si esta la posibilidad de que puedan hacerme una me gustaria mejorar todo lo que me remarquen en este proyecto. Desde ya les agradeco mucho por su tiempo y por su ayuda un fuerte abrazo. Leonardo romero
+Soy Leonardo Romero y esta es la presentacion del proyecto propuesto por "Argentina Programa" para poder poner en practica todos los conceptos aprendidos en el curso de "Primeros pasos del desarrollo front-end" en donde el proyecto final trata sobre crear un curriculum vitae on line para que pueda ser subido mediante la plataforma "git hub" de modo on line . 
+Gracias a profesores y todo el personal que hace posible que podamos avanzar en este mundo tan apasionante que es la programacion . saludos cordiales Leonardo Romero
 [![imagen-pagina-web-CV.png](https://i.postimg.cc/J0sWHkT6/imagen-pagina-web-CV.png)](https://postimg.cc/n9fW6CfB)
