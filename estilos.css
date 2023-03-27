@@ -157,7 +157,7 @@ span {
     text-align:center;
     display: flexbox;
     float: right;
-    width: 530px;
+    width: 60%;
     height: 865px;
     margin: 120px 5px 0 30px ;
     
@@ -185,7 +185,7 @@ font-family: 'Times New Roman', Times, serif;
 /*CARATERISTICAS DE LA OTRA CAJA QUE CONTIENE LA EXPERIENCIA LABORAL Y LA EDUCACION DE LA PERSONA*/
 .caja3{
     background:   #502a03 ;
-    width: 300px;
+    width: 30%;
     height: 805px;
     margin: 120px 0 0 30px ;
     display:block;
@@ -249,4 +249,3 @@ footer{
     text-align: center;
 }
 /*RESPONSIVE DESIGN */
-@media (max-widh:92px)
