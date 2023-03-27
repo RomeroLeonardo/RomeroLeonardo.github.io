@@ -1,0 +1,252 @@
+body { 
+    background-image: linear-gradient(135deg,rgb(255, 255, 255) 0%,rgb(243, 230, 230) 100%);
+    justify-content: center;
+}
+/*CARACTERISTICAS DEL MENU DE NAVEGACION*/
+nav{
+    display: flexbox;
+    justify-content:center;
+    margin:auto;
+    min-width: 650px;
+    max-width: 65%;
+    padding: 5px;
+    top:0;
+    bottom: 8px;
+    padding-top:8px ;
+    padding-bottom: 15px;
+    position: relative;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 0px 10px #0a0a0a;
+}
+     .nav-enlace{
+       display: inline-block;
+       text-decoration: none;
+       background:rgb(253, 146, 6);
+       color:white; 
+       box-shadow: 0 0 2px 2px black;
+       padding: 10px 25px ;
+       font-size: 10px;
+   }
+   .nav-enlace:hover{
+    background-image: linear-gradient(135deg,rgb(212, 210, 208) 0%,rgba(248, 247, 246, 0.856) 100%);
+       color:black;
+   }
+   /*Caracteristicas modo "DARK"*/
+body.dark {
+    background-image: linear-gradient(135deg,rgb(1, 0, 3) 0%,rgb(4, 27, 61) 100%);
+    transition: .3 ease all;
+}
+body.dark nav{
+        background: rgb(107, 107, 107);
+}
+body.dark .nav-enlace{
+     background:black;
+       color:white; 
+       box-shadow: 0px 0px 5px 3px blueviolet;
+}
+body.dark .nav-enlace:hover{
+    background-image: linear-gradient(135deg,rgb(212, 210, 208) 0%,rgba(255, 255, 255, 0.966) 100%);
+       color:black;
+       box-shadow: 0px 0px 5px 3px rgb(8, 1, 15);
+}
+body.dark .cajamadre{
+    background-image: linear-gradient(135deg,rgb(24, 23, 23) 0%,rgba(59, 59, 59, 0.966) 100%);
+    box-shadow: 0px 0px 10px #0a0a0a;
+}
+body.dark .caja1{
+    color: antiquewhite;
+}
+body.dark .caja3{
+    background: #141414;
+    box-shadow: 0px 0px 10px #292929;
+}
+body.dark footer{
+    color: white;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: center;
+}
+   /* CARACTERISTICAS BOTON DE MODO NOCTURNO*/
+    .switch{
+        background:orange;
+        border-radius: 1000px;
+        border: none;
+        position:relative;
+        cursor: pointer;
+        display: flex;
+        outline:none;
+        box-shadow: 0 0 1px 1px black;
+        
+    }
+    .switch::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background:rgb(243, 207, 6);
+    position: absolute;
+    top:0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: .3 ease all;
+    box-shadow: 0px 0px 5px 3px rgb(6, 2, 10);
+}
+    .switch.active {
+    background: rgb(0, 0, 0);
+    color: black;
+    transition: .3 ease all;
+    box-shadow: 0px 0px 1px 1px white;
+}
+   .switch.active::after {
+    right: 0;
+    left: unset;
+    background: rgb(4, 27, 61);
+    box-shadow: 0px 0px 4px 3px blueviolet;
+}
+.switch.sun {
+    right: 0;
+    left: unset;
+}
+span {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            display:block;
+            background: none;
+            color: white;
+        }
+        /*CONTENEDOR PRINCIPAL PARA QUE EL CURRICULUM SE VEA SOLO EN EL CENTRO DE LA HOJA Y NO EN TODA LA PANTALLA*/
+.cajamadre{
+    display: flexbox;
+    position: relative;
+    justify-content:center;
+    margin: auto;
+    height: 1020px;
+    min-width: 650px;
+    max-width: 65%;
+    padding: 5px;
+    background-color:#f1be57;
+    box-shadow: 0px 0px 10px #0a0a0a;
+}
+.redes-sociales{
+    color: #0a0a0a;
+
+
+}
+/*CARATERISTICAS PARA LOS ESTILOS DE LA FOTO DE PERFIL DEL CURRICULUM*/
+.fotoperfil{
+    height: 150px;
+    width: 180px;
+    border-top-right-radius: 30px;
+    display: block;
+    position:absolute;
+    flex-direction: initial;
+    margin-left:90px;
+    margin-top: 70px;
+    box-shadow: 0px 0px 10px #0a0a0a;
+}
+/*CARACTERISTICAS DE LA PRIMERA CAJA QUE CONTIENE LOS DATOS DE INFORMACION PERSONAL DE LA PERSONA*/
+.caja1{
+    color: black;
+    text-align:center;
+    display: flexbox;
+    float: right;
+    width: 530px;
+    height: 865px;
+    margin: 120px 5px 0 30px ;
+    
+}
+.caja1 h1{
+font-family: 'Times New Roman', Times, serif;
+}
+.caja1 h6{
+    text-align: center;
+    margin-top: -20px;
+    position: relative;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.caja1 h3{
+margin-bottom: -5px;
+text-decoration-line:underline;
+font-family: 'Times New Roman', Times, serif;
+
+} 
+.caja1 p{
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+/*CARATERISTICAS DE LA OTRA CAJA QUE CONTIENE LA EXPERIENCIA LABORAL Y LA EDUCACION DE LA PERSONA*/
+.caja3{
+    background:   #502a03 ;
+    width: 300px;
+    height: 805px;
+    margin: 120px 0 0 30px ;
+    display:block;
+    text-align: center;
+    color:aliceblue;
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    padding-top:100px;
+}
+.caja3 p{
+    margin:5px;
+    padding-left: 35px;
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 15px;
+}
+.caja3 h3{
+    text-align: center;
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    text-align:left;
+    display:flex;
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 15px;
+    margin: auto;
+    padding-top: 5px;
+}
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+    display: block;
+}
+/*BARRA DE HABILIDADES DE LA PERSONA*/
+progress {
+    -webkit-appearance: none;
+  }
+  
+  ::-webkit-progress-value {
+    background-color: orange;
+  }
+  label{
+    color: black;
+    font-style:italic;
+  }
+  /*PIE DE PAGINA DE LA PAGINA WEB*/
+footer{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: center;
+}
+/*RESPONSIVE DESIGN*/
+@media (max-widh:92px)

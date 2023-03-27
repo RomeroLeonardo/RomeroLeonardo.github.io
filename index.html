@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV-Proyecto</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/0980caa34d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+    <nav>
+        <!--MENU DE NAVEGACION-->
+        <a href="https://github.com/chinoromero23" target="_blank" class="nav-enlace"><i class="fa-brands fa-github"></i> PERFIL GITHUB</a>
+        <a href="https://www.ticmas.com/plataforma" target="_blank"  class="nav-enlace"><i class="fa-solid fa-computer"></i> TICMAS </a>
+        <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank" class="nav-enlace"><i class="fa-solid fa-laptop"></i> ARGENTINA PROGRAMA</a>
+        <a href="#experiencialaboral" class="nav-enlace">EXPERIENCIA LABORAL</a>
+        <a href="#actualizaciones" class="nav-enlace">ACTUALIZACIONES</a>
+        <!-- BOTON DE SWICH PARA MODO DIA Y MODO NOCTURNO  QUE NO PUDE HACER FUNCIONAR-->
+        <button class="switch" id="swich">
+            <span><i class="fa-solid fa-sun"></i></span>
+            <span><i class="fa-solid fa-moon"></i></span>
+        </button> 
+    </nav>
+</header>
+<!--COLOQUE DENTRO DE UNA SOLA CAJA LLAMADA"CAJA MADRE" A TODO EL CONTENIDO DEL CURRICULUM PARA QUE SOLO SE VEA EN EL CENTRO DE LA PANTALLA-->
+    <div class="cajamadre">
+        <div class="redes-sociales">
+        </div>
+            <!--LA CLASS "CAJA 1"CONTIENE TODOS LOS DATOS PERSONALES DE LA PERSONA-->
+        <div class="caja1">
+            
+            <H1>  TONY CAMINANTE </H1>
+            
+            <h6>Lic en comercializacion</h6>
+            <h3>PERFIL PERSONAL</h3>
+            <p>Licenciado en comercializacion (marketing
+                y publicidad).Gran conocimiento en
+                posicionamiento estrategico de marcas y
+                ventas, asi como tambien gran desempeño
+                con herramientas de office , diseño y
+                desarrollo web,softwar de edicion y video</p>
+                <h3>FORMACION ACADEMICA</h3>
+                    <H5>LICENCIADO EN COMERCIALIZACION (MARKETING Y PUBLICIDAD )</H5>
+                       <P>Universidad Tecnologica Nacional . UTN Buenos Aires - Argentina</P>
+                       <section id="experiencialaboral"></section>
+                <h3>EXPERIENCIA LABORAL</h3>
+                    <H5>EVENTOS DEPORTIVOS (2021)</H5>
+                    <P>Gestion general y Posicionamiento estrategico en medios digitales y desarollo logistico y organizativo del evento</P>
+                    <H5>CONSULTOR</H5>
+                    <P>Servicio de consultoria externa y Atención al cliente, trabajo bajo presión,resolución de problemas.</P>
+                        <section id="actualizaciones"></section>
+                            <h3>ACTUALIZACIONES</h3>
+                        <h5>DESARROLLADOR FULL STACK DEVELOPER</h5>
+                            <label for="file">HTML:50%</label>
+                            <progress id="file" max="100" value="50"> 50% </progress>
+                            <label for="file">CSS:60%</label>
+                            <progress id="file" max="100" value="60"> 60% </progress>
+                            <label for="file">JS:40%</label>
+                            <progress id="file" max="100" value="40"> 40% </progress>
+                            <label for="file">ANGULAR:20%</label>
+                            <progress id="file" max="100" value="20"> 20% </progress>
+        </div>
+        <div>
+            <!--FOTO DE PERFIL DE LA PERSONA PARA SU CV-->
+            <img src="foto-curriculum.webp" alt="" class="fotoperfil" >
+        </div>
+        <!--DENTRO DE "CAJA 3"COLOCAMOS LOS DATOS DE CONTACTO Y DATOS PERSONALES DE LA PERSONA-->
+        <div class="caja3">
+            <p>32 años</p>
+            <p>Nacionalidad argentina</p>
+            <p>23 de agosto 1990</p>
+            <h3><i class="fa-solid fa-user"></i> CONTACTO</h3> 
+            <p>(+54)3413057076</p>
+            <p>Leonardoromero@gmail.com</p>
+            <p>Leonardo romero</p>
+            <p>Lomas de zamora - BUENOS AIRES</p>
+             <h3><i class="fa-solid fa-brain"></i> CONOCIMIENTOS</h3>
+              <ul>
+                <li><a href="#">Herramientas office</a></li>
+                    <li><a href="#">Marketing y publicidad</a></li>
+                    <li><a href="#">Software de diseño (Photoshop,corel)</a></li>
+                    <li><a href="#">Software de video (adobe premier pro)</a></li>
+                    <li><a href="#">Desarrollo de proyectos web</a>
+                    <li><a href="#">Programacion</a>
+                </li>
+              </ul>
+             <h3><i class="fa-solid fa-screwdriver-wrench"></i> HABILIDADES</h3>
+              <ul>
+                <li><a href="#">Pro activo</a></li>
+                <li><a href="#">Capacidad de trabajo en equipo</a></li>
+                <li><a href="#">Mente abierta</a></li>
+                <li><a href="#">Resolución de problemas</a></li>
+                <li><a href="#">Capacidad de adaptación</a>
+                </li>
+              </ul>
+             <h3><i class="fa-solid fa-earth-asia"></i> IDIOMAS</h3>
+              <ul>
+                <li><a href="#">ESPAÑOL NATIVO</a></li>
+                <li><a href="#">INGLÉS INTERMEDIO</a></li>
+                <li><a href="#">ITALIANO INTERMEDIO</a></li>
+                </li>
+              </ul>
+    </div>
+    <!--PIE DE PAGINA FINAL -->
+    <footer>
+        Documento creado para el curso "Primeros pasos del desarrollo frontend" de academia Ticmas 2023 el marco de
+        ARGENTINA PROGRAMA 4.0.
+</footer>
+<!--CONECCION CON HOJA DE JS QUE NO PUDE HACER FUNCIONAR PARA QUE EL BOTON PUEDA DESLIZARSE-->
+<script src="index.js"></script>
+</body>
+</html>
+<!--final hoja de html-->
