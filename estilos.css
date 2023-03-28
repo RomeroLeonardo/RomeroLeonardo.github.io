@@ -71,6 +71,10 @@ body.dark footer{
     font-size: 14px;
     text-align: center;
 }
+body.dark label{
+    color:aliceblue;
+    padding-top: 2px;
+}
    /* CARACTERISTICAS BOTON DE MODO NOCTURNO*/
     .switch{
         background:orange;
@@ -232,6 +236,7 @@ a{
     padding-top: 5px;
 }
 label {
+    padding-top: 2px;
     padding-right: 10px;
     font-size: 1rem;
     display: block;
@@ -261,4 +266,11 @@ footer{
     text-align: center;
     position: absolute;
 }
-/*RESPONSIVE DESIGN */
+/* PRUEBA DE RESPONSIVE DESIGN CON MEDIA QUERY */
+/* @media screen and (max-width:980px) {
+    .cajamadre{
+background-image: linear-gradient(135deg,rgb(24, 23, 23) 0%,rgba(59, 59, 59, 0.966) 100%);
+    }
+    .caja1{
+        color: aliceblue;
+    } */
